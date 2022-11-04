@@ -1,5 +1,5 @@
 ---
-title: "Designmode"
+title: "Have Fun in design Mode"
 format: html
 filters:
   - designmode
@@ -14,7 +14,11 @@ Quarto enables you to weave together content and executable code into a finished
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{r}
-1 + 1
+library(ggplot2)
+
+ggplot(diamonds, aes(color, fill = color)) +
+  geom_bar() +
+  theme_minimal()
 ```
 
 You can add options to executable code like this 
