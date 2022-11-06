@@ -1,4 +1,4 @@
-# reveal-auto-agenda
+# designMode
 
 A quarto extension, adding a toggle for [designMode](https://developer.mozilla.org/en-US/docs/Web/API/Document/designMode) in html outputs, including revealjs slides.
 
