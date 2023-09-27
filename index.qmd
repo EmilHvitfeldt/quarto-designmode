@@ -1,5 +1,6 @@
 ---
 title: "Have Fun in design Mode"
+subtitle: <https://github.com/EmilHvitfeldt/quarto-designmode>
 format: html
 filters:
   - designmode
